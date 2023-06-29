@@ -1,0 +1,50 @@
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+header *{
+    
+}
+.logo-enlaces{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    
+}
+.registro{
+    
+    display: flex;
+
+}
+.logo{
+    width: 50px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.a{
+    margin: 5px;
+    text-decoration: none;
+}
+.boton{
+    border: 3px solid white;
+    padding: 0.8em;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 0 0.5em;
+}
+.boton-blanco{
+    border-color: black;
+    background-color: white;
+    color: black;
+
+}
+.boton-negro{
+    background-color: black;
+    color: white;
+}
