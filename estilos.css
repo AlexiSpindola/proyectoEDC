@@ -48,3 +48,60 @@ nav{
     background-color: black;
     color: white;
 }
+.arte{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(6, 97, 6);
+    color: white;
+    margin: 0 100px;
+    padding: 2em;
+}
+.enlace{
+    color: white;
+}
+.seccion1{
+    margin: 0 100px;
+    background-color: rgb(247, 20, 20);
+    display: flex;
+        
+}
+.alebrijes{
+  
+    background-color: rgb(247, 20, 20);
+    width: 300px;
+    flex-grow: 1;
+   
+}
+
+
+.alebrijes img{
+    width: 100%;
+}
+.creatividad{
+   
+    background-color: rgb(247, 20, 20);
+    align-items: center;
+    color: white;
+    width: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+
+}
+.boton-a{
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+
+.footer{
+    margin: 0 100px;
+}
+section{
+    margin-bottom: 0.5em;
+}
