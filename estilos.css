@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@500&display=swap');
 header{
     
     display: flex;
@@ -55,8 +56,16 @@ nav{
     background-color: rgb(6, 97, 6);
     color: white;
     margin: 0 100px;
-    padding: 2em;
+    padding: 0.5em;
 }
+
+.arte p{
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    padding: 0.2em;
+}
+
 .enlace{
     color: white;
 }
@@ -65,6 +74,15 @@ nav{
     background-color: rgb(247, 20, 20);
     display: flex;
         
+}
+h1{
+    font-size: 60px;
+    width: 50%;
+    text-align: center;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+h2{
+    font-size: 60px;
 }
 .alebrijes{
   
@@ -90,6 +108,14 @@ nav{
     padding: 2em;
 
 }
+.creatividad h2,.creatividad p{
+    width: 80%;
+    text-align: center;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.creatividad p{
+    font-size: 30px;
+}
 .boton-a{
     color: white;
     border: 3px solid white;
@@ -101,6 +127,8 @@ nav{
 
 .footer{
     margin: 0 100px;
+    border-top: 2px solid gray;
+    padding-top:1em;
 }
 section{
     margin-bottom: 0.5em;
